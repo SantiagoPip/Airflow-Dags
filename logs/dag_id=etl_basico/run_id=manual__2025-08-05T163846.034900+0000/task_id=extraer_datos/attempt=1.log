@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-05T16:38:57.996741","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T16:38:57.998003","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_basico.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T16:39:00.311979","level":"info","event":"Datos extraídos: ['manzana', 'banana', 'cereza']","logger":"root"}
+{"timestamp":"2025-08-05T16:39:00.313532","level":"info","event":"Done. Returned value was: ['manzana', 'banana', 'cereza']","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T16:39:00.313836","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01987b19-8225-74b6-bdff-f3ce92a68339'), task_id='extraer_datos', dag_id='etl_basico', run_id='manual__2025-08-05T16:38:46.034900+00:00', try_number=1, map_index=-1, hostname='080face80401', context_carrier={}, task=<Task(PythonOperator): extraer_datos>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 8, 5, 16, 38, 47, 676846, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}
+{"timestamp":"2025-08-05T16:39:00.513482Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:00.513976Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:00.514397Z","level":"info","event":"Current task name:extraer_datos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:00.514783Z","level":"info","event":"Dag name:etl_basico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:00.515142Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:00.515471Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:00.515873Z","level":"info","event":"Task operator:<Task(PythonOperator): extraer_datos>","chan":"stdout","logger":"task"}

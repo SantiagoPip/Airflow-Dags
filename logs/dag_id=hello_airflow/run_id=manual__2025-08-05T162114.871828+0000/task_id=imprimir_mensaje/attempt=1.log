@@ -1,0 +1,13 @@
+{"timestamp":"2025-08-05T16:21:17.087220","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T16:21:17.089661","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/hello_airflow.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T16:21:17.347090Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:21:17.347889Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:21:17.348342Z","level":"info","event":"Current task name:imprimir_mensaje","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:21:17.348779Z","level":"info","event":"Dag name:hello_airflow","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:21:17.349166Z","level":"info","event":"Hola desde airflow dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:21:17.349519Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:21:17.350007Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:21:17.350377Z","level":"info","event":"Task operator:<Task(PythonOperator): imprimir_mensaje>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:21:17.321498","level":"info","event":"✅ DAG ejecutado correctamente - Hola desde Airflow!","logger":"unusual_prefix_a12fe422daadbc1a260fbd3d7b23d588867b0f54_hello_airflow"}
+{"timestamp":"2025-08-05T16:21:17.322520","level":"info","event":"Done. Returned value was: True","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T16:21:17.322852","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01987b09-7813-7f56-95f0-14f6d4dea02c'), task_id='imprimir_mensaje', dag_id='hello_airflow', run_id='manual__2025-08-05T16:21:14.871828+00:00', try_number=1, map_index=-1, hostname='080face80401', context_carrier={}, task=<Task(PythonOperator): imprimir_mensaje>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 8, 5, 16, 21, 15, 506396, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}

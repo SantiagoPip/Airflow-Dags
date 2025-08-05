@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-05T16:14:22.225751","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T16:14:22.231637","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_basico.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T16:14:25.133551Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:14:25.142308Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:14:25.143154Z","level":"info","event":"Current task name:extraer_datos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:14:25.149442Z","level":"info","event":"Dag name:etl_basico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:14:25.150261Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:14:25.151082Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:14:25.165174Z","level":"info","event":"Task operator:<Task(PythonOperator): extraer_datos>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:14:22.474123","level":"info","event":"Datos extraídos: ['manzana', 'banana', 'cereza']","logger":"root"}
+{"timestamp":"2025-08-05T16:14:22.488235","level":"info","event":"Done. Returned value was: ['manzana', 'banana', 'cereza']","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T16:14:22.488636","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019876f2-9761-744e-9d2b-1795e14770e7'), task_id='extraer_datos', dag_id='etl_basico', run_id='manual__2025-08-04T21:17:46.703823+00:00', try_number=1, map_index=-1, hostname='080face80401', context_carrier={}, task=<Task(PythonOperator): extraer_datos>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 8, 5, 16, 14, 13, 584280, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}

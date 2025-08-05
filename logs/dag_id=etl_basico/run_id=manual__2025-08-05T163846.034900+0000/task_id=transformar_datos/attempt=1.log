@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-05T16:39:05.844390","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T16:39:05.845782","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_basico.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T16:39:05.924801Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.925704Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.926291Z","level":"info","event":"Current task name:transformar_datos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.926808Z","level":"info","event":"Dag name:etl_basico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.925155","level":"info","event":"Datos transformados: ['MANZANA', 'BANANA', 'CEREZA']","logger":"root"}
+{"timestamp":"2025-08-05T16:39:05.926924","level":"info","event":"Done. Returned value was: ['MANZANA', 'BANANA', 'CEREZA']","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T16:39:05.927256","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01987b19-8226-7873-a7c7-c290993a4b50'), task_id='transformar_datos', dag_id='etl_basico', run_id='manual__2025-08-05T16:38:46.034900+00:00', try_number=1, map_index=-1, hostname='080face80401', context_carrier={}, task=<Task(PythonOperator): transformar_datos>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 8, 5, 16, 39, 2, 910065, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.983515Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.984187Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.984698Z","level":"info","event":"Task operator:<Task(PythonOperator): transformar_datos>","chan":"stdout","logger":"task"}

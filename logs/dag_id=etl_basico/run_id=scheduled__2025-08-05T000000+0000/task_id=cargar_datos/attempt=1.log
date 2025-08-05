@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-05T16:39:05.030171","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T16:39:05.031766","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_basico.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T16:39:05.113811Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.114683Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.115289Z","level":"info","event":"Current task name:cargar_datos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.115895Z","level":"info","event":"Dag name:etl_basico","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.114277","level":"info","event":"Datos cargados: ['MANZANA', 'BANANA', 'CEREZA']","logger":"root"}
+{"timestamp":"2025-08-05T16:39:05.116018","level":"info","event":"Done. Returned value was: True","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T16:39:05.116394","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01987b00-6e18-787a-bf35-1753754b0f7f'), task_id='cargar_datos', dag_id='etl_basico', run_id='scheduled__2025-08-05T00:00:00+00:00', try_number=1, map_index=-1, hostname='080face80401', context_carrier={}, task=<Task(PythonOperator): cargar_datos>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 8, 5, 16, 39, 2, 890798, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=False)","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.173476Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.174245Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T16:39:05.174963Z","level":"info","event":"Task operator:<Task(PythonOperator): cargar_datos>","chan":"stdout","logger":"task"}
